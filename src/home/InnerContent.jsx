@@ -15,7 +15,7 @@ import ArrowUpwardOutlinedIcon from '@mui/icons-material/ArrowUpwardOutlined';
 import AddIcon from '@mui/icons-material/Add';
 
 import Typography from '@mui/material/Typography';
-import { styled, useTheme } from '@mui/material/styles';
+import { styled} from '@mui/material/styles';
 
 import SearchIcon from '@mui/icons-material/Search';
 import InputBase from '@mui/material/InputBase';
@@ -93,7 +93,7 @@ const Search = styled(Box)
 const SearchIconWrapper = styled('div')(({ theme }) => ({
     height: '100%',
     margin: "10px 0 0 0",
-    margin: "10px 0px 0 0",
+  
     position: "relative",
     left: "30px",
     zIndex: "1",
